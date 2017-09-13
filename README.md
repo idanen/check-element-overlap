@@ -19,10 +19,6 @@ Check if 2 given elements overlap
   top: 50px;
   left: 80px;
 }
-.element-4 {
-  top: 20px;
-  left: 100px;
-}
 </style>
 <body>
   <div class="elements element-1"></div>
