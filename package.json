@@ -1,0 +1,28 @@
+{
+  "name": "check-element-overlap",
+  "version": "1.0.0",
+  "description": "Check if 2 elements overlap",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idanen/check-element-overlap.git"
+  },
+  "author": "Idan Entin <idanen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idanen/check-element-overlap/issues"
+  },
+  "homepage": "https://github.com/idanen/check-element-overlap#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "test": "mocha ./**/*.test.js",
+    "build": "babel src --out-dir lib",
+    "prepublish": "npm run build"
+  }
+}
